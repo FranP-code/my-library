@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Library</h1>
+    </header>
+    
+    <div id="root">
+
+        <div id="library">
+            <!--
+                ! TEMPLATE
+                <div class="book">
+                    <h3>1984</h3>
+                    <h5>200</h5>
+                    <h4>George Orwell</h4>
+                    <button>delete</button>
+                    <button>not readed</button>
+                </div>
+            --> 
+        </div>
+
+        <div class="add-new-book">
+            <h2>Add a new book</h2>
+            <form id="add-new-book-form">
+                <input type="text" id="input-name" placeholder="Name" required>
+                <input type="number" id="input-pages" placeholder="Pages" min="0" required>
+                <input type="text" id="input-author" placeholder="Author" required>
+                <input type="submit" value="Add book to Library">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with 💗 by <a href="http://franp.xyz">Francisco Pessano</a></p>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
